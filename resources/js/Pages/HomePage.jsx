@@ -112,7 +112,7 @@ function HomePage({ products, success }) {
 
     return (
         <>
-            <Head title="Restaurant POS" />
+            <Head title="Restaurant ALAN" />
             <ToastContainer />
             {isPopupOpen && (
                 <ChargePopup
@@ -124,7 +124,7 @@ function HomePage({ products, success }) {
             )}
             <div className="font-sans bg-gray-200 p-4 min-h-[calc(100vh-5rem)]">
                 <div className="text-center text-2xl font-bold mb-4">
-                    Restaurant POS
+                    Restaurant ALAN
                 </div>
                 <div className="bg-white rounded-xl px-6 py-8 shadow-md space-y-4 min-h-[calc(100vh-5rem)]">
                     <header>

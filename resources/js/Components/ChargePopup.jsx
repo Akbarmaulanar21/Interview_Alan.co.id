@@ -51,7 +51,8 @@ const ChargePopup = ({ setIsPopupOpen, total, billItems, clearBillItems }) => {
     return (
         <div className="z-50 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-50">
             <div className="bg-white p-6 rounded-lg shadow-lg w-1/2">
-                <h2 className="text-xl font-semibold mb-2">Charge</h2>
+                <h1 className="text-x1 font-bold mb-2 text-center">Restaurant - ALAN</h1>
+                <h2 className="text-xl font-semibold mb-2 text-center">Charge</h2>
                 <div className="mb-4">
                     <p>Total Bill {total < 0 ? 0 : total}</p>
                 </div>
@@ -76,7 +77,7 @@ const ChargePopup = ({ setIsPopupOpen, total, billItems, clearBillItems }) => {
                         className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-md mr-2 disabled:opacity-50"
                         disabled={payment < totalCharge}
                     >
-                        OK
+                        Simpan
                     </button>
                 </div>
             </div>
